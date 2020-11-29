@@ -103,9 +103,28 @@ hr{
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus{background: transparent;}
 
+.navbar-brand {
+    padding: 15px 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	line-height: 50px;
+	font-weight: bold;
+	color: white !important;
+}
+
 .navbar-brand>img {
 	width: 100%;
-	max-width: 130px;
+	height: 100%;
+	max-width: 50px;
+}
+
+.navbar-brand>span {
+	width: 100%;
+	height: 100%;
+
 }
 
 /* secondary menu */
